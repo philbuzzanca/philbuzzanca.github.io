@@ -26,3 +26,21 @@ body {
 	margin: 66px auto;
 	width: 8.5in;
 }
+
+h2 {
+	border-bottom: 1px solid black;
+	margin-top: 1em;
+	margin-bottom: 0.75em;
+}
+
+table {
+	width: 100%;
+}
+
+td li {
+	width: 100%;
+}
+
+td:nth-child(2) {
+	text-align: right;
+}
