@@ -23,7 +23,7 @@
 		<div class="collapse navbar-collapse">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" onclick="loadResume()" id="resumeLink">Resume </a>
+					<a class="nav-link" onclick="loadResume()" id="resumeLink">Resume</a>
 				</li>
 			</ul>
 		</div>
@@ -54,6 +54,25 @@
 	<div class="jumbotron bg-white" id="resumePage">
 		<h1 class="text-center">Philip Buzzanca</h1>
 		<p class="text-center">Rocky Point, NY 11778 | <a href="mailto:philipbuzzanca.cs@gmail.com">philipbuzzanca.cs@gmail.com</a> | <a href="https://github.com/philbuzzanca">github.com/philbuzzanca</a></p>
+		<section name="Projects">
+			<h2>Projects</h2>
+			<ul>
+				<li><strong>NHL ELO</strong>
+					<ul>
+						<li>Using Python, analyzed the results of over 20,000 hockey games from the previous 10 NHL seasons to calculate a running skill rating (elo) for each team.</li>
+						<li>Stored skill ratings in SQLite database and used data to construct a line graph to easily compare team ratings over time.</li>
+					</ul>
+				</li>
+				<li><strong>Un-gerrymander</strong>
+					<ul>
+						<li>Robust web application allowing users to automatically generate new political maps using data from 7,000 precincts in three states.</li>
+						<li>Built using Spring Boot with Java backend. Designed and implemented frontend using Bootstrap 4.0.</li>
+						<li>Developed algorithm to move low-level polling districts from their original electoral district to a more “politically fair” one while preserving district contiguity.</li>
+						<li>Used MySQL transactional database to store original precinct data and update it with any user changes that result from running the algorithm.</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
 		<section name="Education">
 			<h2>Education</h2>
 			<table>
@@ -103,29 +122,14 @@
 				</tbody>
 			</table>
 		</section>
-		<section name="Projects">
-			<h2>Projects</h2>
-			<ul>
-				<li><strong>NHL ELO</strong>
-					<ul>
-						<li>Using Python, analyzed the results of over 20,000 hockey games from the previous 10 NHL seasons to calculate a running skill rating (elo) for each team.</li>
-						<li>Stored skill ratings in SQLite database and used data to construct a line graph to easily compare team ratings over time.</li>
-					</ul>
-				</li>
-				<li><strong>Un-gerrymander</strong>
-					<ul>
-						<li>Developed robust web application allowing users to automatically generate new political maps using data from 7,000 precincts in three states.</li>
-						<li>Developed algorithm to move low-level polling districts from their original electoral district to a more “politically fair” one while preserving district contiguity.</li>
-						<li>Used MySQL transactional database to store original precinct data and update it with any user changes that result from running the algorithm.</li>
-					</ul>
-				</li>
-			</ul>
-		</section>
 		<section name="Skills">
 			<h2>Skills</h2>
 			<ul>
-				<li>Proficient in both Linux and Windows environments.</li>
-				<li></li>
+				<li>Strong knowledge of object-oriented programming using Java, C, and Python.</li>
+				<li>Strong scripting knowledge in Python, JavaScript, and Bash.</li>
+				<li>Comfortable working with, analyzing, and manipulating large sets of data.</li>
+				<li>Familiar with common web security vulnerabilities and best practices to avoid them.</li>
+				<li>Proficient in Linux, Windows, and macOS environments.</li>
 				<li></li>
 			</ul>
 		</section>
