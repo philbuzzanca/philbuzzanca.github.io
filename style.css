@@ -5,6 +5,7 @@ body {
 
 .navbar {
 	height: 45px;
+	width: 100vw;
 	background-color: #66B2FF;
 	border-bottom: solid 1px darkgray;
 	padding-left: 15%;
