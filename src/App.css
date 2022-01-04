@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body {
+  font-family: 'Slabo 27px', serif;
+  background-color: rgb(248,249,250);
+}
+
+.jumbotron {
+  background-color: white;
+  border: solid 1px darkgray;
+  width: 72%;
+  margin: auto;
+}
+
+.menuBar {
+  background-color: rgb(52,58,64);
+  border-bottom: 1px solid darkgrey;
+  height: 2.6em;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 1em;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+}
+
+table{
+  width: 100%;
+}
+
+td li {
+  width: 95%
+}
+
+td:nth-child(2){
+  text-align: right;
+}
