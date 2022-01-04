@@ -4,7 +4,7 @@ const Projects = () => {
 
     const body = (
         <>
-            hi
+            Under construction
         </>
     )
 
