@@ -9,7 +9,7 @@ const Projects = () => {
     )
 
     return (
-        <Jumbotron header='Projects' body={body} hr={true}/>
+        <Jumbotron header='Projects' body={body} />
     )
 }
 

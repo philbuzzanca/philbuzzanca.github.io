@@ -5,22 +5,23 @@ const Resume = () => {
         <div>
             <h1 class="text-center">Philip Buzzanca</h1>
             <p class="text-center">Rocky Point, NY 11778 | <a href="mailto:philipbuzzanca.cs@gmail.com">philipbuzzanca.cs@gmail.com</a> | <a href="https://github.com/philbuzzanca">github.com/philbuzzanca</a></p>
+
+            <section name="Education">
+                <h2>Education</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><strong>Stony Brook University</strong></td>
+                            <td>Stony Brook, New York</td>
+                        </tr>
+                        <tr>
+                            <td><i>Bachelor of Science, Computer Science</i></td>
+                            <td>August 2014 - May 2018</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
             <section name="Projects">
-                <section name="Education">
-                    <h2>Education</h2>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td><strong>Stony Brook University</strong></td>
-                                <td>Stony Brook, New York</td>
-                            </tr>
-                            <tr>
-                                <td><i>Bachelor of Science, Computer Science</i></td>
-                                <td>August 2014 - May 2018</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
                 <h2>Projects</h2>
                 <ul>
                     <li><strong>Hockey Elo</strong>

@@ -22,7 +22,7 @@ const Home = () => {
 
         </>
 
-    return <Jumbotron header="Philip Buzzanca" body={body} hr={true}/>
+    return <Jumbotron header="Philip Buzzanca" body={body} />
 }
 
 export default Home
