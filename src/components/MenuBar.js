@@ -12,9 +12,6 @@ const MenuBar = () => {
           </LinkContainer>
         </Nav>
         <Nav>
-          <LinkContainer to="/projects">
-            <Nav.Link active={false}>Projects</Nav.Link>
-          </LinkContainer>
           <LinkContainer to="/resume">
             <Nav.Link active={false}>Resume</Nav.Link>
           </LinkContainer>

@@ -13,8 +13,7 @@ body {
 }
 
 .menuBar {
-  background-color: rgb(52,58,64);
-  border-bottom: 1px solid darkgrey;
+  background-color: rgb(24, 28, 32);
   height: 2.6em;
   padding-left: 10%;
   padding-right: 10%;
@@ -43,7 +42,7 @@ h5 {
   margin-top: 1em;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 800px) {
   .jumbotron{
     width: 100%;
   }

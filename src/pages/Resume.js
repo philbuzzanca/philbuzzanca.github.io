@@ -24,11 +24,13 @@ const Resume = () => {
             <section name="Projects">
                 <h2>Projects</h2>
                 <ul>
-                    <li><h5><strong>Twitter Clone</strong></h5>
+                    <li><h5><strong>Social Media App</strong></h5>
                         <ul>
-                            <li>React</li>
-                            <li>Node</li>
-                            <li>MongoDB</li>
+                            <li>Full stack web app which allows registered users to write posts, like posts, and leave comments.</li>
+                            <li>Responsive user interface developed with React and styled with Semantic UI.</li>
+                            <li>Stores, updates, and manages all user data, posts, and comments on a MongoDB database.</li>
+                            <li>Implemented an Apollo GraphQL server that uses Node.js and Express to communicate with the database.</li>
+                            <li>Hosted online using Netlify and Heroku cloud services at <a href="https://romantic-hawking-d9a38a.netlify.app">netlify.app</a>.</li>
                         </ul>
                     </li>
                     <li><h5><strong>Hockey Elo</strong></h5>
@@ -52,6 +54,7 @@ const Resume = () => {
                 <h2>Skills</h2>
                 <ul>
                     <li>Strong knowledge of object-oriented programming using Java, C, and Python.</li>
+                    <li>Well-versed in popular web app frameworks including React, Angular, and Express for Node.js.</li>
                     <li>Strong scripting knowledge in Python, JavaScript, and Bash.</li>
                     <li>Extensive knowledge of database design and RDBMS systems, including MySQL, PostgreSQL, SQLite and NoSQL.</li>
                     <li>Comfortable working with, analyzing, and manipulating large sets of data.</li>
