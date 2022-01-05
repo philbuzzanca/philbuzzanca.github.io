@@ -12,6 +12,9 @@ const MenuBar = () => {
           </LinkContainer>
         </Nav>
         <Nav>
+          <LinkContainer to="/portfolio">
+            <Nav.Link active={false}>Portfolio</Nav.Link>
+          </LinkContainer>
           <LinkContainer to="/resume">
             <Nav.Link active={false}>Resume</Nav.Link>
           </LinkContainer>
