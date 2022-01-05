@@ -14,7 +14,7 @@ const Home = () => {
                 style={{ float: "right", borderRadius: "10%", marginLeft: "20px", marginBottom: "20px", filter: "grayscale(0%)" }}
             />
 
-            <p>Traveler. Problem solver. Lifelong student.</p>
+            <p>Traveler. Problem solver. Learner.</p>
 
             <p>A longtime puzzle game enthusiast with a love for numbers, Philip has always been fascinated by the problem-solving capabilities of modern computers. While studying at Stony Brook University, he expanded on this knowledge and earned a Bachelor of Science in computer science. Philip became passionate about big data, statistics, and algorithm development, and is looking to apply his skills in web development, software development, and data analysis.</p>
 
