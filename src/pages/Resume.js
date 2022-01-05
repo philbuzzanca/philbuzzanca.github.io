@@ -24,14 +24,21 @@ const Resume = () => {
             <section name="Projects">
                 <h2>Projects</h2>
                 <ul>
-                    <li><strong>Hockey Elo</strong>
+                    <li><h5><strong>Twitter Clone</strong></h5>
+                        <ul>
+                            <li>React</li>
+                            <li>Node</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </li>
+                    <li><h5><strong>Hockey Elo</strong></h5>
                         <ul>
                             <li>Using Python, analyzed the results of over 20,000 hockey games from the previous 10 NHL seasons to calculate a running skill rating (elo) for each team.</li>
                             <li>Stored skill ratings in PostgreSQL database and used data to construct an easy to comprehend graph comparing team ratings over time.</li>
                             <li>Hosted online using Amazon Web Services at <a href="https://hockeyelo.com">hockeyelo.com</a>.</li>
                         </ul>
                     </li>
-                    <li><strong>Un-gerrymander</strong>
+                    <li><h5><strong>Un-gerrymander</strong></h5>
                         <ul>
                             <li>Robust web application allowing users to automatically generate new political maps using data from 7,000 precincts in three states.</li>
                             <li>Built using Spring Boot with Java backend. Designed and implemented frontend using Bootstrap 4.0.</li>

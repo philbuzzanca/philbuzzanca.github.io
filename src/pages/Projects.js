@@ -8,9 +8,7 @@ const Projects = () => {
         </>
     )
 
-    return (
-        <Jumbotron header='Projects' body={body} />
-    )
+    return <Jumbotron header='Projects' body={body} />
 }
 
 export default Projects

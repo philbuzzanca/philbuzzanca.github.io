@@ -38,3 +38,13 @@ td li {
 td:nth-child(2){
   text-align: right;
 }
+
+h5 {
+  margin-top: 1em;
+}
+
+@media only screen and (max-width: 860px) {
+  .jumbotron{
+    width: 100%;
+  }
+}
