@@ -4,17 +4,18 @@ import Jumbotron from '../components/Jumbotron';
 import headshot from '../assets/face.PNG'
 
 const Home = () => {
+    
     const body =
         <>
             <Image
                 className="float-right"
                 alt="..."
                 src={headshot}
-                width="133"
+                width="160"
                 style={{ float: "right", borderRadius: "10%", marginLeft: "20px", marginBottom: "20px", filter: "grayscale(0%)" }}
             />
 
-            <p>Traveler. Problem solver. Learner.</p>
+            <p>Traveler. Problem solver. Developer.</p>
 
             <p>A longtime puzzle game enthusiast with a love for numbers, Philip has always been fascinated by the problem-solving capabilities of modern computers. While studying at Stony Brook University, he expanded on this knowledge and earned a Bachelor of Science in computer science. Philip became passionate about big data, statistics, and algorithm development, and is looking to apply his skills in web development, software development, and data analysis.</p>
 
@@ -22,7 +23,12 @@ const Home = () => {
 
         </>
 
-    return <Jumbotron header="Philip Buzzanca" body={body} />
+    const footer =
+        <div>
+            email: <a href="mailto:philipbuzzanca.cs@gmail.com">philipbuzzanca.cs@gmail.com</a> GitHub: <a href="https://www.github.com/philbuzzanca">github.com/philbuzzanca</a>{'     '}LinkedIn: <a href="https://www.linkedin.com/in/philipbuzzanca">linkedin.com/in/philipbuzzanca</a>
+        </div>
+
+    return <Jumbotron header="Philip Buzzanca" body={body} hr={true} footer={footer} />
 }
 
 export default Home
