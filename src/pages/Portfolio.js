@@ -13,9 +13,19 @@ const Portfolio = () => {
         image={twitter_clone_screenshot}
         body={(
             <ul>
-                <li>Social media website modeled after Twitter.</li>
-                <li>Registered users can submit, delete, and like posts.</li>
-                <li>Unique page for each post and its comments.</li>
+                <li>
+                    A React app designed to mimic the basic functionality of Twitter.
+                </li>
+                <li>
+                    After registering an account, users can submit, like, and comment on text posts.
+                </li>
+                <li>
+                    Users can also delete any posts or comments made by them.
+                </li>
+                <li>
+                    Each user has their own unique page containing all of their posts, annd each
+                    post has its own page containing its comments.
+                </li>
             </ul>
         )}
     />
@@ -32,32 +42,23 @@ const Portfolio = () => {
         image={hockey_elo_screenshot}
         body={(
             <ul>
-                <li>Python, Django</li>
-                <li>ChartJS</li>
-                <li>AWS</li>
+                <li>
+                    A django app that tracks the performance of the 32 teams in the National Hockey League.
+                </li>
+                <li>
+                    Calculates a skill rating (elo) for every team based on the outcome of each game,
+                    accounting for the matchup difficulty and goal differential.
+                </li>
+                <li>
+                    Users can predict the outcome of any matchup using the matchup simulator, which
+                    uses team elo ratings to calculate win probabilities.
+                </li>
             </ul>
         )}
     />
 
     const hockeyEloFooter = (<>
         Hosted on <a href="https://www.hockeyelo.com">hockeyelo.com</a>.
-    </>)
-
-    const ungerrymanderSubheader = (<>
-        Full stack Java web application.<br />
-    </>)
-
-    const ungerrymanderBody = <PortfolioBody
-        image={hockey_elo_screenshot}
-        body={(
-            <ul>
-                <li>algorithm</li>
-            </ul>
-        )}
-    />
-
-    const ungerrymanderFooter = (<>
-        Source on <a href="https://github.com/philbuzzanca/gerrymander">GitHub</a>.
     </>)
 
     const body = (<>
@@ -75,14 +76,6 @@ const Portfolio = () => {
                 body={hockeyEloBody}
                 subheader={hockeyEloSubheader}
                 footer={hockeyEloFooter}
-            />
-        </div>
-        <div className="portfolioJumbotron">
-            <Jumbotron
-                header={"Un-gerrymander"}
-                body={ungerrymanderBody}
-                subheader={ungerrymanderSubheader}
-                footer={ungerrymanderFooter}
             />
         </div>
     </>)

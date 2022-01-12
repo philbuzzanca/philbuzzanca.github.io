@@ -7,14 +7,14 @@ const PortfolioBody = ({ image, body }) => {
 
     return (<Container>
         <Row>
-            <Col xs={5}>
+            <Col xs={6}>
                 <Image
                     src={image}
                     className="portfolioImage"
                     width="100%"
                 />
             </Col>
-            <Col xs={7}>
+            <Col xs={6}>
                 {body}
             </Col>
         </Row>
