@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c052513.css",
-    "main.js": "/static/js/main.989d8eb3.js",
+    "main.css": "/static/css/main.a385a241.css",
+    "main.js": "/static/js/main.7c844bd9.js",
     "static/js/787.346528c1.chunk.js": "/static/js/787.346528c1.chunk.js",
     "static/media/hockey_elo_screenshot.png": "/static/media/hockey_elo_screenshot.abb6dd08a51098548963.png",
     "static/media/twitter_clone_screenshot.png": "/static/media/twitter_clone_screenshot.abefce14843267ff8750.png",
     "static/media/face.PNG": "/static/media/face.0dc1d235fa90908960ca.PNG",
     "index.html": "/index.html",
-    "main.5c052513.css.map": "/static/css/main.5c052513.css.map",
-    "main.989d8eb3.js.map": "/static/js/main.989d8eb3.js.map",
+    "main.a385a241.css.map": "/static/css/main.a385a241.css.map",
+    "main.7c844bd9.js.map": "/static/js/main.7c844bd9.js.map",
     "787.346528c1.chunk.js.map": "/static/js/787.346528c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c052513.css",
-    "static/js/main.989d8eb3.js"
+    "static/css/main.a385a241.css",
+    "static/js/main.7c844bd9.js"
   ]
 }
