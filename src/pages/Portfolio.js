@@ -35,7 +35,7 @@ const Portfolio = () => {
     </>)
 
     const hockeyEloSubheader = (<>
-        Full stack web application using Django, Python, Bootstrap, PostgreSQL, and graph.<br />
+        Full stack web application using Django, Python, Bootstrap, PostgreSQL, and graphQL.<br />
     </>)
 
     const hockeyEloBody = <PortfolioBody

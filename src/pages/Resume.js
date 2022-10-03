@@ -87,12 +87,21 @@ const Resume = () => {
                 <table>
                     <tbody>
                         <tr>
-                            <td><strong>Stop and Shop</strong></td>
-                            <td>Miller Place, NY and Southampton, NY</td>
+                            <td><h4><strong>Stop and Shop</strong></h4></td>
+                            <td><h4>Miller Place, NY and Southampton, NY</h4></td>
                         </tr>
                         <tr>
-                            <td>Produce Clerk</td>
-                            <td>May 2015 - Present</td>
+                            <td><h5><i>Produce Clerk</i></h5></td>
+                            <td><h5>May 2015 - Present</h5></td>
+                        </tr>
+                        <br/>
+                        <tr>
+                            <td><h4><strong>Northwell Health</strong></h4></td>
+                            <td><h4>Riverhead, NY</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h5><i>Administrative Clerk</i></h5></td>
+                            <td><h5>February 2022 - Present</h5></td>
                         </tr>
                     </tbody>
                 </table>

@@ -114,6 +114,16 @@ td:nth-child(2) {
   text-align: right;
 }
 
+td h4 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+td h5 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
 h5 {
   margin-top: 1em;
 }
