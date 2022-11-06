@@ -9,7 +9,7 @@ const Home = () => {
         <>
             <Image
                 className="float-right"
-                alt="..."
+                alt="Philip Buzzanca"
                 src={headshot}
                 width="160"
                 style={{ float: "right", borderRadius: "10%", marginLeft: "20px", marginBottom: "20px", filter: "grayscale(0%)" }}
