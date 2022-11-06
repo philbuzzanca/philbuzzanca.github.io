@@ -26,7 +26,7 @@ const Home = () => {
             <p>
                 As a developer, Philip has experience with a variety of tools and languages.
                 His primary language is JavaScript, utilizing Express.js and React on the front-end, and Node on the backend.
-                However, Philip is comfortable with a wide variety of languages, and has no issue learning a new framework.
+                However, Philip is comfortable with various other languages, and is always eager to learn a new framework.
             </p>
 
             <p>
