@@ -65,8 +65,7 @@ body {
 }
 
 .portfolioJumbotron .jumbotron {
-  margin-left: 0;
-  width: 80%;
+  width: 82%;
   border: solid 1px rgba(0, 0, 0, 0.25);
   padding: 2rem !important;
   padding-bottom: 1em !important;
